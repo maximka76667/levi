@@ -12,6 +12,9 @@
 
 @import url(../blocks/landing/landing.css);
 
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/profile/profile.css);
+
 @import url(../blocks/portfolio/portfolio.css);
 
 @import url(../blocks/footer/footer.css);
@@ -27,6 +30,17 @@
 @import url(../blocks/landing/__heading/landing__heading.css);
 @import url(../blocks/landing/__description/landing__description.css);
 @import url(../blocks/landing/__link/landing__link.css);
+
+@import url(../blocks/skills/__title/skills__title.css);
+@import url(../blocks/skills/__container/skills__container.css);
+
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__table/profile__table.css);
+@import url(../blocks/profile/__table-element/profile__table-element.css);
+@import url(../blocks/profile/__title/profile__title.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__bar-back/profile__bar-back.css);
+@import url(../blocks/profile/__bar-front/profile__bar-front.css);
 
 @import url(../blocks/portfolio/__container/portfolio__container.css);
 @import url(../blocks/portfolio/__texts/portfolio__texts.css);

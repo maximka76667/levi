@@ -1,0 +1,10 @@
+.profile__table-element {
+    display: grid;
+    grid-template-columns: 190px 446px;
+    grid-template-rows: 25px;
+    margin: 0 0 20px;
+}
+
+.profile__table-element:last-child {
+    margin: 0;
+}
