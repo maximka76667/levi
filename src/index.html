@@ -11,7 +11,7 @@
       <div class="hero__container">
         <header class="header">
           <a href="#" class="logo">Portofolio</a>
-          <ul class="menu">
+          <ul class="menu" id="menu">
             <li class="menu__item">
               <a href="#home" class="menu__link">Home</a>
             </li>
@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <section class="about">
+    <section class="about" id="about">
       <h2 class="about__heading">About</h2>
       <p class="about__info">
         Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus
@@ -56,7 +56,7 @@
       </p>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="portfolio__container">
         <div class="portfolio__texts">
           <h2 class="portfolio__title">Portfolio</h2>
@@ -160,5 +160,26 @@
         </div>
       </div>
     </footer>
+    <a href="#home" class="home-button" id="button"></a>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#menu').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body, html').animate({ scrollTop: top }, 800);
+        });
+        $('#button').on('click', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body, html').animate({ scrollTop: top }, 800);
+        });
+      });
+    </script>
   </body>
 </html>

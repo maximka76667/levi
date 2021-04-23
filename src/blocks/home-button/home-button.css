@@ -1,0 +1,29 @@
+@keyframes arrowMovement {
+  0% {
+    transform: translate(0) rotate(90deg);
+  }
+  50% {
+    transform: translate(0, -10px) rotate(90deg);
+  }
+  100% {
+    transform: translate(0) rotate(90deg);
+  }
+}
+
+.home-button {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/arrow.png) 50% 50% no-repeat;
+  background-size: contain;
+  transform: rotate(90deg);
+  position: fixed;
+  bottom: 70px;
+  right: 150px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.home-button:hover {
+  animation: arrowMovement 0.8s infinite ease-in-out;
+}
