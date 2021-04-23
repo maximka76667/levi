@@ -1,0 +1,9 @@
+@import url(../vendor/reset.css);
+
+/* Blocks */
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+
+/* Header elements styles */
+@import url(../blocks/header/__owner/header__owner.css);
+@import url(../blocks/header/__title/header__title.css);
