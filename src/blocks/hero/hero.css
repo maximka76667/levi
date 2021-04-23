@@ -1,0 +1,20 @@
+.hero {
+  background: url(../../images/hero-image.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 93px 0;
+  z-index: 1;
+  color: #fff;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
+  background-color: #C66C49;
+  z-index: -1;
+}
