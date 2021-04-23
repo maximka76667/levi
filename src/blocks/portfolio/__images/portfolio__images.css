@@ -1,0 +1,5 @@
+.portfolio__images {
+    margin-top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
