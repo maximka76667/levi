@@ -15,10 +15,14 @@
 @import url(../blocks/skills/skills.css);
 @import url(../blocks/profile/profile.css);
 
+@import url(../blocks/about/about.css);
+
 @import url(../blocks/portfolio/portfolio.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/contacts/contacts.css);
+
+@import url(../blocks/home-button/home-button.css);
 
 /* Elements */
 
@@ -41,6 +45,9 @@
 @import url(../blocks/profile/__info/profile__info.css);
 @import url(../blocks/profile/__bar-back/profile__bar-back.css);
 @import url(../blocks/profile/__bar-front/profile__bar-front.css);
+
+@import url(../blocks/about/__info/about__info.css);
+@import url(../blocks/about/__heading/about__heading.css);
 
 @import url(../blocks/portfolio/__container/portfolio__container.css);
 @import url(../blocks/portfolio/__texts/portfolio__texts.css);
@@ -66,3 +73,5 @@
 @import url(../blocks/contacts/__link/contacts__link.css);
 
 /* Modifiers */
+
+@import url(../blocks/home-button/_active/home-button_active.css);

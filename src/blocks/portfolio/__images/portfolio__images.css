@@ -1,5 +1,7 @@
 .portfolio__images {
-    margin-top: 180px;
-    display: flex;
-    flex-wrap: wrap;
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: 350px 255px;
+  grid-template-rows: 144px 69px 144px;
+  gap: 20px;
 }

@@ -1,0 +1,13 @@
+.about__info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+
+    margin-bottom: 35px;
+}
+
+.about__info:last-of-type {
+    margin-bottom: 0;
+}
