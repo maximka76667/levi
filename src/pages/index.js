@@ -22,3 +22,27 @@ function activateSkillBars() {
     window.removeEventListener('scroll', activateSkillBars);
   }
 }
+
+//slider
+
+let offset = 0; // смещение от левого края
+
+const sliderLine = document.querySelector('.portfolio__slider'); // "линия постов"
+
+document.querySelector('#right').addEventListener('click', () => {
+  offset += 1110; //Перемещение на следующий элемент,как вариант можно брать не 1110,а ширину "постов" для адаптивности
+  if (offset > 2220) {
+    offset = 0;
+  }
+  sliderLine.style.left = -offset + 'px';
+});
+
+document.querySelector('#left').addEventListener('click', () => {
+  offset -= 1110;
+  if (offset < 0) {
+    offset = 2220;
+  }
+  sliderLine.style.left = -offset + 'px';
+});
+
+//slider

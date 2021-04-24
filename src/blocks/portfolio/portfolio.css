@@ -1,6 +1,9 @@
 .portfolio {
     background-color:  #FFFFFF;
     color: #333333;
-    margin: 0;
+    margin: 0 0 0 120px;
     padding: 93px 0 145px;
+    width: 1110px;
+    overflow: hidden;
+    z-index: 2;
 }
