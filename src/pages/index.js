@@ -1,9 +1,8 @@
 import '../pages/index.css';
 
-const homeButton = document.querySelector('.home-button');
+import { homeButton, progressBars, barsSettings } from '../utils/constants.js';
 
-const progressBars = document.querySelectorAll('.profile__bar-front');
-const barsSettings = ['100%', '70%', '80%'];
+import '../utils/scroll.js';
 
 window.addEventListener('scroll', () => {
   if (pageYOffset >= 200) {
