@@ -1,3 +1,10 @@
 .portfolio__house-ing {
   grid-area: 3 / 2;
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .portfolio__house-ing {
+    width: 160px;
+    height: 124px;
+  }
+}
