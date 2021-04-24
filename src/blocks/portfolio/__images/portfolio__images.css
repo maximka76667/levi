@@ -5,3 +5,22 @@
   grid-template-rows: 144px 69px 144px;
   gap: 20px;
 }
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .portfolio__images {
+    margin-top: 100px;
+    grid-template-columns: 250px 190px;
+    grid-template-rows: 144px 69px 144px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .portfolio__images {
+    margin-top: 100px;
+    grid-template-columns: 200px 160px;
+    grid-template-rows: 124px 59px 124px;
+    gap: 15px;
+  }
+}
+
+

@@ -29,18 +29,26 @@ let offset = 0; // смещение от левого края
 
 const sliderLine = document.querySelector('.portfolio__slider'); // "линия постов"
 
+const postStyles = getComputedStyle(
+  document.querySelector('.portfolio__container')
+);
+
+const postWidth = parseFloat(postStyles.width);
+
+console.log(postWidth);
+
 document.querySelector('#right').addEventListener('click', () => {
-  offset += 1110; //Перемещение на следующий элемент,как вариант можно брать не 1110,а ширину "постов" для адаптивности
-  if (offset > 2220) {
+  offset += postWidth; //Перемещение на следующий элемент,как вариант можно брать не 1110,а ширину "постов" для адаптивности
+  if (offset > postWidth * 2) {
     offset = 0;
   }
   sliderLine.style.left = -offset + 'px';
 });
 
 document.querySelector('#left').addEventListener('click', () => {
-  offset -= 1110;
+  offset -= postWidth;
   if (offset < 0) {
-    offset = 2220;
+    offset = postWidth * 2;
   }
   sliderLine.style.left = -offset + 'px';
 });
