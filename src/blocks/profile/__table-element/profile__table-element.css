@@ -3,8 +3,21 @@
     grid-template-columns: 190px 446px;
     grid-template-rows: 25px;
     margin: 0 0 20px;
+    max-width: 636px;
 }
 
 .profile__table-element:last-child {
     margin: 0;
+}
+
+@media (max-width: 1280px) {
+  .profile__table-element {
+    margin: 0 auto 20px;
+    grid-template-columns: 96px 211px;
+    max-width: 307px;
+  }
+
+  .profile__table-element:last-child {
+    margin: 0 auto;
+  }
 }

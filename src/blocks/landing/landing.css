@@ -1,2 +1,8 @@
 .landing {
 }
+
+@media (max-width: 1280px) {
+  .landing {
+    text-align: center;
+  }
+}

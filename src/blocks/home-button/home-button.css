@@ -27,3 +27,10 @@
 .home-button:hover {
   animation: arrowMovement 0.8s infinite ease-in-out;
 }
+
+@media (max-width: 1280px) {
+  .home-button {
+    bottom: 56px;
+    right: 32px;
+  }
+}
