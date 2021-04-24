@@ -1,5 +1,7 @@
 .portfolio__slider {
-    margin-top: 235px;
-    margin-left: 25px;
     display: flex;
+    width: 3300px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
 }
