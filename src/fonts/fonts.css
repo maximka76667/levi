@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'LibreFranklin';
-  src: url('./LibreFranklin-Regular.ttf');
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Regular.ttf');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'LibreFranklin';
-  src: url('./LibreFranklin-Medium.ttf');
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Medium.ttf');
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'LibreFranklin';
-  src: url('./LibreFranklin-Bold.ttf');
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Bold.ttf');
   font-style: normal;
   font-weight: 700;
 }
