@@ -5,7 +5,6 @@
   padding: 93px 0;
   z-index: 1;
   color: #fff;
-  background-attachment: fixed;
 }
 
 .hero::after {
